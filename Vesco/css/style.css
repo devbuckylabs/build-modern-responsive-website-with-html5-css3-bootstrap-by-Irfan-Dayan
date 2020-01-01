@@ -97,6 +97,17 @@ h3 {
     color: #fff;
 }
 
+.btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 20px;
+    padding: 3px 15px;
+    border-radius: 0;
+    display: none;
+
+
+}
 
 /*--------------------------------
      SOCIAL ICONS (GENERIC)
@@ -124,6 +135,10 @@ h3 {
 
 .icon-grey {
     color: #64707b;
+}
+
+.icon-white {
+    color: #fff;
 }
 
 .social-icon i:hover {
@@ -504,25 +519,27 @@ h4.team-member-designation {
               STATS
 --------------------------------*/
 
-#stats-cover{
+#stats-cover {
     background-image: url(../img/bg-stats.jpg);
 }
 
-#stats .content-box{
-    background: rgba(0,0,0,0.8);
+#stats .content-box {
+    background: rgba(0, 0, 0, 0.8);
 }
 
-,.stats-items {
-    padding: 70px 0; 
+,
+.stats-items {
+    padding: 70px 0;
 }
 
-.stats-item i{
-    
+.stats-item i {
+
     color: #34c6d3;
-    
+
 }
-.stats-item h2{
-    
+
+.stats-item h2 {
+
     color: #fff;
     font-size: 35px;
     font-weight: 700;
@@ -530,7 +547,7 @@ h4.team-member-designation {
     margin-bottom: 1px;
 }
 
-.stats-item p{
+.stats-item p {
     color: #fff;
     text-transform: uppercase;
     font-weight: 300;
@@ -538,29 +555,172 @@ h4.team-member-designation {
 }
 
 
+/*--------------------------------
+            CLIENTS
+--------------------------------*/
+
+.client {
+    padding: 40px 0;
+
+}
 
 
+/*--------------------------------
+           CONTACT
+--------------------------------*/
+
+footer {
+    background-color: #41464b;
+    padding-top: 30x;
+    border-top: 5px solid rgba(0, 0, 0, 0.1);
+}
+
+#contact-left h3,
+#contact-right h3 {
+    color: #fff;
+    font-size: 27px;
+    font-weight: 700;
+
+}
+
+#contact-left p {
+    color: #fff;
+    margin-bottom: 30px;
+
+}
+
+#contact-info {
+    background-image: url(../img/world-map.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+address {
+    color: #fff;
+
+}
+
+address strong,
+#phone-fax-mail {
+    letter-spacing: 1px;
+
+}
+
+form .form-control {
+    background-color: transparent;
+    border-radius: 0;
+    border-color: #fff;
+    font-size: 17px;
+    font-weight: 300;
+    padding: 8px 16px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+/*--------------------------------
+          Footer
+--------------------------------*/
+
+#footer-bottom {
+
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 30px 0;
+    margin-top: 60px;
+
+}
+
+#footer-copyrights p {
+    margin: 0;
+    color: #fff;
+
+}
+
+#footer-menu {
+    float: left;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#footer-menu ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+#footer-menu ul li {
+    display: inline-block;
+
+}
+
+#footer-menu a {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+#footer-menu a:hover {
+    color: #34c6d3;
+}
 
 
+/*--------------------------------
+         Navigation
+--------------------------------*/
 
+.navbar {
+    padding: 20px 0;
+    transition: all .5s ease-in-out;
+}
 
+.vesco-top-nav {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 7px 0;
 
+}
 
+.vesco-nav-wrapper {
+    padding: 0 85px;
+}
 
+.navbar-nav {
+    float: right;
 
+}
 
+.navbar-nav > li > a {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
 
+}
 
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus {
+    background: none;
+    color: #34c6d3;
+}
 
+.navbar-toggle {
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid #fff;
+    border-radius: 0;
 
+}
 
+.navbar-toggle .icon-bar {
+    background-color: #fff;
+}
 
+.navbar-collapse {
+    max-height: none !important;
+}
 
-
-
-
-
-
-
-
-
+#vesco-menu > ul > li.active > a {
+    color: #34c6d3;
+}
